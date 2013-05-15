@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="maths_chapters">
+        <item>1. Infinite Series</item>
+        <item>2. Calculus of single variable</item>
+        <item>3. Calculus of several variables</item>
+        <item>4. Multiple Integrals</item>
+        <item>5. Vector Calculus</item>
+        <item>6. Functions of complex variable</item>
+    </string-array>
+    <string-array name="commskills_chapters">
+        <item>1. Parts of speech</item>
+        <item>2. Vocabulary and Usage: Synonyms and Antonyms</item>
+        <item>3. Presentation of technical information</item>
+        <item>4. Writing of Paragraph, summary and abstracts</item>
+        <item>5. Comprehension</item>
+        <item>6. Oral Communication: Phonetics</item>
+    </string-array>
+    <string-array name="physics_chapters">
+        <item>1. Theory of Relativity</item>
+        <item>2. Oscillations and waves</item>
+        <item>3. Physical Optics</item>
+        <item>4. Optical Instruments</item>
+        <item>5. Laser Optics</item>
+        <item>6. Optical Fiber</item>
+    </string-array>
+    <string-array name="chemistry_chapters">
+        <item>1. Conventional Analysis</item>
+        <item>2. Spectral Analysis</item>
+        <item>3. Thermal methods of analysis</item>
+        <item>4. Polymers</item>
+        <item>5. Bio-molecules</item>
+        <item>6. Electrochemistry</item>
+        <item>7. Phase equilibrium</item>
+        <item>8. Green Chemistry</item>
+    </string-array>
+    <string-array name="electrical_chapters">
+        <item>1. Introduction to circuits</item>
+        <item>2. D.C. Networks</item>
+        <item>3. Single phase A.C. Circuits</item>
+        <item>4. Three phase A.C. Circuits</item>
+        <item>5. Magnetic circuits and Transformers</item>
+        <item>6. Three phase induction motors</item>
+        <item>7. Equipment and machine power supply basics</item>
+        <item>8. Measuring Instruments</item>
+    </string-array>
+    <string-array name="comp_chapters">
+        <item>1. Fundamental concepts of information</item>
+        <item>2. Concepts of Computer and programming</item>
+        <item>3. Programming language classification and programming methodology</item>
+        <item>4. Digital devices and basic network concepts: Digital fundamentals</item>
+        <item>5. Data communication and networks</item>
+        <item>6. Internet and web technologies</item>
+    </string-array>
+    <string-array name="ed_chapters">
+        <item>1. Lines, lettering and dimensioning</item>
+        <item>2. Types of scales</item>
+        <item>3. Construction of conic sections</item>
+        <item>4. Special Curves</item>
+        <item>5. Types of projections</item>
+        <item>6. Projection of points and lines</item>
+        <item>7. Projection of planes and solids</item>
+        <item>8. Sections of solids</item>
+        <item>9. Development of surfaces</item>
+        <item>10. Isometric projections</item>
+    </string-array>
+    <string-array name="workshop_chapters">
+        <item>1. Carpentry Shop</item>
+        <item>2. Foundary Shop</item>
+        <item>3. Welding Shop</item>
+        <item>4. Fitting Shop</item>
+        <item>5. Smithy Shop</item>
+    </string-array>
+    <string-array name="mechanics_chapters">
+        <item>1. Fundamental laws of mechanics</item>
+        <item>2. Fundamentals of rectilinear mechanics</item>
+        <item>3. Fundamentals of rotational mechanics</item>
+        <item>4. Kinematics of a particle</item>
+        <item>5. Dynamics of particles and rigid body</item>
+        <item>6. Work and energy</item>
+        <item>7. Impulse and momentum</item>
+        <item>8. Vibrations</item>
+    </string-array>
+    <string-array name="lab_chapters">
+        <item>1. Applied Physics Lab</item>
+        <item>2. Applied Chemistry Lab</item>
+        <item>3. Programming Lab</item>
+        <item>4. Workshop Technology Lab</item>
+        <item>5. Engineering Mechanics Lab</item>
+        <item>6. Engineering Drawing Lab</item>
+        <item>7. Electrical Lab</item>
+    </string-array>
+</resources>

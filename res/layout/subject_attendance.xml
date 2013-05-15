@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <RelativeLayout 
+     android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android" 
+   	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+   <ScrollView
+       
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" 
+        
+        android:background="#ffffff">
+    "
+   	 <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+   	     <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+   	         <ImageView
+   	             android:id="@+id/subject_attendance_pie"
+   	             android:layout_width="wrap_content"
+   	             android:layout_height="wrap_content"
+   	             android:layout_marginTop="10dp"
+   	              />
+
+        </TableRow>               
+       
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="35dp"
+                android:paddingTop="17dp"
+                android:text="@string/attendance_pie_chart"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp" >
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+   			    android:layout_height="wrap_content">
+   			    
+                <ImageView
+                    android:id="@+id/present_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="Present color"
+                    android:src="@drawable/present_color" />
+
+                <TextView
+                    android:id="@+id/present_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"                    
+                    android:text="@string/present" />
+
+                <TextView
+                    android:id="@+id/present_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="20sp"                    
+                     />
+            
+            </LinearLayout>
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp" >
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+   			    android:layout_height="wrap_content">
+   			    
+
+                <ImageView
+                    android:id="@+id/absent_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/absent" />
+
+                <TextView
+                    android:id="@+id/absent_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"                    
+                    android:text="@string/absent" />
+
+                <TextView
+                    android:id="@+id/absent_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="110dp"
+                    android:textSize="20sp"                    
+                     />
+            
+            </LinearLayout>
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp" >
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+   			    android:layout_height="wrap_content">
+   			    
+
+                <ImageView
+                    android:id="@+id/absent_on_leave_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                     android:src="@drawable/absent_on_leave" />
+
+                <TextView
+                    android:id="@+id/absent_on_leave_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"                    
+                    android:text="@string/absent_on_leave" />
+
+                <TextView
+                    android:id="@+id/absent_on_leave_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="20sp"                    
+                     />
+            
+            </LinearLayout>
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp" >
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+   			    android:layout_height="wrap_content">
+   			    
+
+                <ImageView
+                    android:id="@+id/days_left_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/days_left_color" />
+
+                <TextView
+                    android:id="@+id/days_left_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"                    
+                    android:text="@string/days_left" />
+
+                <TextView
+                    android:id="@+id/days_left_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="90dp"
+                    android:textSize="20sp"                    
+                     />
+            
+            </LinearLayout>
+        </TableRow>
+            
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             >
+
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="17dp"
+                android:text="@string/attendance_notify"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow
+             android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+             <TextView
+        android:id="@+id/subject_attendance_footer_helper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="You are not allowed to sit in the exam" />
+            
+        </TableRow>
+    </TableLayout>
+ </ScrollView>
+ 
+  <LinearLayout
+   
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+     android:layout_alignParentBottom="true">
+
+
+    <TextView
+        android:id="@+id/subject_attendance_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6cd0eb"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+</RelativeLayout>
+    
+              
+
+
+    

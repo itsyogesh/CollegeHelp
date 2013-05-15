@@ -1,0 +1,211 @@
+<resources>
+
+    <string name="app_name">G.G.S.I.P.U</string>
+    <string name="student_login_label">Student Login</string>
+    <string name="content_desc_logo">G.G.S.I.P.U logo</string>
+    <string name="faculty_login_label">Faculty Login</string>
+    <string name="course_subjects_label">Course Subjects</string>
+    <string name="heading">Welcome To G.G.S.I.P.U</string>
+    <string name="dotted_line">----------------------------</string>
+    <string name="roll_no_hint">Enter Roll No.</string>
+    <string name="user_id_hint">Enter User Id.</string>
+    <string name="rollno_label">ROLL NO:</string>
+    <string name="userid_label">ROLL NO:</string>
+    <string name="password_label">PASSWORD:</string>
+    <string name="login_text">LOGIN</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="student_login_header">STUDENT LOGIN</string>
+    <string name="faculty_login_header">FACULTY LOGIN</string>
+    <string name="heading_full">G.G.S. Indraprastha University</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="student_profile_label">My Profile</string>
+    <string name="student_messages_label">My Messages</string>
+    <string name="student_profile_header">Hello, Yogesh</string>
+    <string name="attendence_label">My Attendence</string>
+	<string name="course_details">Course Details</string>
+	<string name="profile_image_content">Profile Image</string>
+	<string name="classes">Classes</string>
+	<string name="messages">Messages</string>
+	<string name="settings">Settings</string>
+	<string name="logout">Log Out</string>
+	<string name="student_course_subjects">Course Subjects</string>
+	<string name="subject_chapter_header">Subject Name</string>
+	<string name="student_attendance_header">Choose A Subject</string>
+	<string name="attendance_label">My Attendance</string>
+	<string name="attendance_pie_chart">*Attendance: Pie Chart</string>
+	<string name="present">Present</string>
+	<string name="absent">Absent</string>
+	<string name="absent_on_leave">Absent on leave</string>
+	<string name="days_left">Days Left</string>
+	<string name="present_value">65 %</string>
+	<string name="absent_value">05 %</string>
+	<string name="absent_on_leave_value">14 %</string>
+	<string name="days_left_value">16 %</string>
+	<string name="attendance_notify">* Attendance shown is only valid for the present semester.</string>
+	<string name="student_timetable_header">Choose A Day</string>
+	<string name="faculty_profile_label">Faculty Profile</string>
+	<string name="faculty_timetable_day">Time Table</string>
+	<string name="mark_attendance">Mark Attendance</string>
+	
+	<string-array name="semester">
+	    <item>First Semester</item>
+	    <item>Second Semester</item>
+	    <item>Third Semester</item>
+	    <item>Fourth Semester</item>
+	    <item>Fifth Semester</item>
+	    <item>Sixth Semester</item>
+	    <item>Seventh Semester</item>
+	    <item>Eighth Semester</item>
+	</string-array>
+
+	<string-array name="timetable_days">
+	    <item>Monday</item>
+	    <item>Tuesday</item>
+	    <item>Wednesday</item>
+		<item>Thursday</item>
+		<item>Friday</item>
+	</string-array>
+	
+	<string-array name="student_message">
+    <item>First terminals exams</item>
+    <item>Low Attendence in Mathematics</item>
+    <item>Message from Mr. Verma</item>
+    <item>Third Semester results </item>
+    <item>Arrival of freshers</item>
+    <item>Vice Chancellor message</item>
+    <item>Deadline for Physics assignment</item>
+    <item>New placement records at NSIT</item>
+    <item>Selections for the UAS club</item>
+    <item>Invitation for the freshers party</item>
+	</string-array>
+	
+	<string-array name="student_subjects">
+	    <item>Mathematics</item>
+	    <item>Communication Skills</item>
+	    <item>Applied Physics</item>
+	    <item>Applied Chemistry</item>
+	    <item>Electrical Sciences</item>
+	    <item>Information Technology</item>
+	    <item>Engineering Drawing</item>
+	    <item>Workshop Technology</item>
+	    <item>Engineering Mechanics</item>
+	    <item>Experiment Labs</item>
+	    
+	</string-array>
+<string-array name="monday_timetable">
+    <item>Maths Lecture</item>
+    <item>Physics Lecture</item>
+    <item>Chemistry Lecture</item>
+	<item>    BREAK    </item>
+	<item>Physics Tutorial</item>
+	<item>Chemistry Tutorial</item>
+	<item>Humanities Tutorial</item>
+	<item>Maths Tutorial</item>
+</string-array>
+<string-array name="tuesday_timetable">
+    <item>Engg.Drawing Practical</item>
+    <item>Engg.Drawing Practical</item>
+    <item>Engg.Drawing Practical</item>
+    <item>     BREAK     </item>
+    <item>Maths Lecture</item>
+    <item>Physics Lecture</item>
+    <item>Man. Process Lecture</item>
+    <item>     No Class     </item>
+</string-array>
+<string-array name="wed_timetable">
+    <item>Maths Lecture</item>
+    <item>Physics Lecture</item>
+    <item>Humanities Lecture</item>
+    <item>   BREAK      </item>
+    <item>Chemistry Practical</item>
+	<item>Chemistry Practical</item>
+	<item>Chemistry Practical</item>
+	<item>   No Class      </item>
+</string-array>
+<string-array name="thurs_timetable">
+    <item>Workshop Practical</item>
+    <item>Workshop Practical</item>
+    <item>Workshop Practical</item>
+    <item>   BREAK      </item>
+    <item>Chemistry Lecture</item>
+    <item>Man.Process Lecture</item>
+    <item>Humanities Lecture</item>
+    <item>   No Class      </item>
+</string-array>
+<string-array name="friday_timetable">
+    <item>Chemistry Lecture</item>
+    <item>Man.Process Lecture</item>
+    <item>Humanities Lecture</item>
+    <item>   BREAK      </item>
+    <item>Physics Practical</item>
+    <item>Physics Practical</item>
+    <item>Physics Practical</item>
+    <item>   No Class      </item>
+</string-array>
+
+
+<string-array name="class_timings">
+    <item>09:00 10:00</item>
+    <item>10:00 11:00</item>
+    <item>11:00 12:00</item>
+    <item>12:00 13:00</item>
+    <item>13:00 14:00</item>
+    <item>14:00 15:00</item>
+    <item>15:00 16:00</item>
+    <item>16:00 17:00</item>
+</string-array>
+<string-array name="monday_timetable_faculty">
+    <item>Lecture-Semester:01 ECE sec:A</item>
+    <item>Lecture-Semester:01 ECE sec:A</item>
+    <item>No Class</item>
+	<item>    BREAK    </item>
+	<item>Tutorial-Semester:03 CSE sec:C</item>
+	<item>No Class</item>
+	<item>Practical-Semester:05 IT sec:B</item>
+	<item>Practical-Semester:05 IT sec:B</item>
+</string-array>
+<string-array name="tuesday_timetable_faculty">
+    <item>Lecture-Semester:01 ECE sec:A</item>
+    <item>Lecture-Semester:01 ECE sec:A</item>
+    <item>No Class</item>
+	<item>    BREAK    </item>
+	<item>Tutorial-Semester:03 CSE sec:C</item>
+	<item>No Class</item>
+	<item>Practical-Semester:05 IT sec:B</item>
+	<item>Practical-Semester:05 IT sec:B</item>
+</string-array>
+
+<string-array name="wed_timetable_faculty">
+    <item>Lecture-Semester:01 ECE sec:A</item>
+    <item>Lecture-Semester:01 ECE sec:A</item>
+    <item>No Class</item>
+	<item>    BREAK    </item>
+	<item>Tutorial-Semester:03 CSE sec:C</item>
+	<item>No Class</item>
+	<item>Practical-Semester:05 IT sec:B</item>
+	<item>Practical-Semester:05 IT sec:B</item>
+</string-array>
+
+<string-array name="thurs_timetable_faculty">
+    <item>Lecture-Semester:01 ECE sec:A</item>
+    <item>Lecture-Semester:01 ECE sec:A</item>
+    <item>No Class</item>
+	<item>    BREAK    </item>
+	<item>Tutorial-Semester:03 CSE sec:C</item>
+	<item>No Class</item>
+	<item>Practical-Semester:05 IT sec:B</item>
+	<item>Practical-Semester:05 IT sec:B</item>
+</string-array>
+
+<string-array name="friday_timetable_faculty">
+    <item>Lecture-Semester:01 ECE sec:A</item>
+    <item>Lecture-Semester:01 ECE sec:A</item>
+    <item>No Class</item>
+	<item>    BREAK    </item>
+	<item>Tutorial-Semester:03 CSE sec:C</item>
+	<item>No Class</item>
+	<item>Practical-Semester:05 IT sec:B</item>
+	<item>Practical-Semester:05 IT sec:B</item>
+</string-array>
+</resources>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="20"
+        android:text="@string/heading"
+        android:textColor="#771e18"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/dtu_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/content_desc_logo"
+        android:src="@drawable/deltech_logo" />
+
+    <Button
+        android:id="@+id/student_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dtu_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ellipsize="middle"
+        android:shadowColor="#000000"
+        android:shadowDx="20"
+        android:textStyle="bold"
+        android:shadowDy="20"
+        android:text="@string/student_login_label"
+        android:textColor="#771e18"
+        android:typeface="normal" />
+     <Button
+        android:id="@+id/faculty_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/student_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        android:text="@string/faculty_login_label"
+        android:textColor="#771e18"
+        android:typeface="normal" />
+    
+</RelativeLayout>

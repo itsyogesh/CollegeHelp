@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+  <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="#ffffff">
+ 
+        <!--  Header  Starts-->
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#771e18"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip" >
+
+            <!-- Logo Start -->
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/deltech_logo_small" />
+
+            <!-- Logo Ends -->
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imageView1"
+                android:layout_marginLeft="10dip"
+                android:textColor="#FFFFFF"
+                android:text="G.G.S. INDRAPRASTHA UNIVERSITY"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!--  Header Ends -->
+        
+ 
+        <!-- Login Form -->
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+          <!--  Email Label -->
+          <TextView 
+              	android:id="@+id/userid_label"
+              	android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="User ID"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+          <EditText
+              	android:id="@+id/userid" 
+              	android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:hint="@string/user_id_hint"
+                android:singleLine="true"/>
+          <!--  Password Label -->
+          <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Password"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+          <EditText 
+              android:id="@+id/faculty_password" 
+              	android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_hint"
+        		android:inputType="textPassword"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                />
+          <!-- Login button -->
+          <Button 
+              	android:id="@+id/login_faculty"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/login_text"/>
+          <!-- Link to Registration Screen -->
+          <TextView android:id="@+id/student_login_header"
+                android:layout_width="fill_parent"
+                android:background="#771e18"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dip"
+                android:layout_marginBottom="0dp"
+                android:text="@string/faculty_login_header"
+                android:gravity="center"
+                android:textSize="20dip"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:textStyle="bold"/>
+ 
+        </LinearLayout>
+        <!-- Login Form Ends -->
+  </RelativeLayout>
+</ScrollView>

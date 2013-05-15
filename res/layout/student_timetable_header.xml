@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f09341">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calendar_empty"
+        android:paddingLeft="10dp" />
+       
+	  <TextView
+         android:id="@+id/student_timetable_header"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentTop="true"
+         android:gravity="center_vertical|center_horizontal"
+         android:padding="10dp"
+         android:text="@string/student_timetable_header"
+         android:textColor="#FFFFFF"
+         android:textSize="22dp"
+         android:textStyle="bold" />
+
+</LinearLayout>

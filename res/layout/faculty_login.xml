@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+         android:id="@+id/deltech_logo_sl"
+         android:layout_width="150dp"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/textView1"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginBottom="20dp"
+         android:layout_marginLeft="0dp"
+         android:layout_marginRight="15dp"
+         android:layout_marginTop="7dp"
+         android:layout_toLeftOf="@+id/faculty_password"
+         android:contentDescription="@string/content_desc_logo"
+         android:maxHeight="150dp"
+         android:maxWidth="150dp"
+         android:minHeight="175dp"
+         android:minWidth="175dp"
+         android:src="@drawable/deltech_logo" />
+
+   <TextView
+       android:id="@+id/heading_full"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_alignRight="@+id/deltech_logo_sl"
+       android:layout_marginLeft="115dp"
+       android:layout_marginTop="22dp"
+       android:ellipsize="middle"
+       android:text="@string/heading_full"
+       android:textColor="#771e18"
+       android:textSize="20sp"
+       android:textStyle="bold" />
+
+   
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/heading_full"
+       android:layout_marginTop="32dp"
+       android:text="@string/dotted_line"
+       android:textColor="#000000"
+       android:textSize="25sp"
+       android:textStyle="bold" />
+
+
+   <TextView
+       android:id="@+id/faculty_login_header"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/deltech_logo_sl"
+       android:layout_below="@+id/heading_full"
+       android:layout_marginLeft="45dp"
+       android:layout_marginTop="78dp"
+       android:text="@string/faculty_login_header"
+       android:textColor="#771e18"
+       android:textSize="25sp"
+       android:textStyle="bold" />
+
+
+  
+  <EditText
+        android:id="@+id/userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/faculty_login_header"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="45dp"
+        android:background="#cccccc"
+        android:hint="@string/user_id_hint"
+        android:inputType="phone"
+        android:minEms="8"
+        android:minWidth="20dp"
+        android:padding="4dp"
+        android:textColor="#464646"
+        android:textSize="18sp"
+        android:width="20dp" />
+<EditText
+        android:id="@+id/faculty_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/userid"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="#cccccc"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:minEms="8"
+        android:minWidth="20dp"
+        android:padding="4dp"
+        android:textColor="#464646"
+        android:textSize="18sp" />
+
+<TextView
+    android:id="@+id/userid_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/faculty_password"
+    android:layout_alignLeft="@+id/deltech_logo_sl"
+    android:textColor="#771e18"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:text="@string/userid_label" />
+
+<TextView
+    android:id="@+id/password_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/faculty_password"
+    android:layout_alignBottom="@+id/faculty_password"
+    android:layout_alignLeft="@+id/userid_label"
+    android:text="@string/password_label"
+    android:textColor="#771e18"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/login_student"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/faculty_password"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="52dp"
+    android:text="@string/login_text"
+    android:textColor="#771e18"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:width="100dip" />
+   
+</RelativeLayout>

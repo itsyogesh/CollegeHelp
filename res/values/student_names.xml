@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="student_names">
+        <item>Ankur Gupta</item>
+        <item>Sanket Katti</item>
+        <item>Aditi Arora</item>
+        <item>Rishi Singh</item>
+        <item>Mohammad Lee</item>
+        <item>Rishabh Kumar</item>
+        <item>Akshay Saini</item>
+        <item>Himanshu Dhaiya</item>
+        <item>Kritika Mishra</item>
+        <item>Mridul Gupta</item>
+        <item>Sumedha Ramnan</item>
+        <item>Anupam Dixit</item>
+        <item>Naini Singh</item>
+        <item>Kopal Joshy</item>
+        <item>Amit Kumar</item>
+        <item>Abhilasha Sharma</item>
+        <item>Shashank Singh</item>
+        <item>Rohan Sharma</item>
+        <item>Kunal Jaitly</item>
+        <item>Neeraj Singh</item>
+        <item>Ravi Kumar</item>
+        <item>Yogesh Kumar</item>
+    </string-array>
+    
+</resources>
